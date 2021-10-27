@@ -14,6 +14,7 @@ Feature: Scenarios to Create github repository
 #The type of variable determines if the "" has to be given when replacing in the step from Examples	
 #comments which describe the tests data
 # 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 - test token which does not have the create repo scope
+#new comment
 	Examples:
 		|name|description|auth|expected_status_code|
 		|framework_repository_one|This is a repository from framework|Bearer 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|201|		
@@ -30,6 +31,7 @@ Feature: Scenarios to Create github repository
 	Examples:
 		|name|description|auth|expected_status_code|
 		|framework_repository_two|This is a repository from framework|Bearer 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|403|
+		|framework_repository_three|This is a repository from framework|Bearer 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|403|
 		
 		
 		
